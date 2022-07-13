@@ -3,17 +3,17 @@ let result_ref = document.getElementById("result");
 let choices_object = {
     'rock' : {
         'rock' : 'draw',
-        'scissor' : 'win',
+        'scissors' : 'win',
         'paper' : 'lose'
     },
     'scissors' : {
         'rock' : 'lose',
-        'scissor' : 'draw',
+        'scissors' : 'draw',
         'paper' : 'win'
     },
     'paper' : {
         'rock' : 'win',
-        'scissor' : 'lose',
+        'scissors' : 'lose',
         'paper' : 'draw'
     }
 }
