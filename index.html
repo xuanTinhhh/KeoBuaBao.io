@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kéo Búa Bao</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scores">
+            <p>Compurter: 
+                <span id="computer_score">0</span>
+            </p>
+            <p>You: 
+                <span id="user_score">0</span>
+            </p>
+        </div>
+        <div class="weapons">
+            <button onclick="checker('rock')">
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button onclick="checker('paper')">
+                <i class="far fa-hand-paper"></i>
+            </button>
+            <button onclick="checker('scissors')">
+                <i class="far fa-hand-scissors"></i>
+            </button>
+        </div>
+        <div class="details">
+            <p id="user_choice"></p>
+            <p id="computer_choice"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="main.js"></script>
+</body>
+</html>
